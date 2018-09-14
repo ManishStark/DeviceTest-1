@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/layout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:paddingBottom="60dip">
+
+		<TextView android:id="@+id/backLightTitle"
+			android:visibility="visible" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:gravity="center_horizontal" android:paddingTop="20px"
+			android:textSize="24sp" android:text="@string/BrightnessTitle" />
+
+
+		<TextView android:id="@+id/backLightSubTitle"
+			android:visibility="visible" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_centerInParent="true"
+			android:gravity="center_horizontal" android:paddingTop="20px"
+			android:text="@string/BrightnessSubTitle" />
+
+
+
+	</LinearLayout>
+
+	<ProgressBar android:id="@+id/brightnessBar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:layout_centerInParent="true"
+		style="?android:attr/progressBarStyleHorizontal" />
+	<TextView android:id="@+id/progressText" android:visibility="visible"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_above="@id/brightnessBar" android:gravity="center_horizontal"
+		android:paddingTop="20px" />
+
+	<include layout="@xml/control_buttons"/>
+
+</RelativeLayout>

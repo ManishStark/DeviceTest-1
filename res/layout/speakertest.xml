@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<RelativeLayout android:layout_height="match_parent"
+		android:layout_width="wrap_content" android:id="@+id/relativeLayout1">
+		<TextView android:text="@string/SpeakerTitle" android:id="@+id/txtTitle"
+			android:textSize="30dip" android:gravity="center"
+			android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+		<TextView android:id="@+id/txtContent" android:layout_below="@+id/txtTitle"
+			android:gravity="center" android:layout_centerHorizontal="true"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+
+	 <include layout="@xml/control_buttons" android:id="@+id/spk_btn"/>
+
+		<LinearLayout android:layout_centerInParent="true"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal">
+
+			<Button android:id="@+id/spk_btn_left" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:text="@string/Left" />
+
+			<Button android:id="@+id/spk_btn_right" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:text="@string/Right" />
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+
+</LinearLayout>

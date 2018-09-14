@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical">
+
+	<RelativeLayout android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/relativeLayout1">
+		<TextView android:text="@string/GyroscopeTest" android:id="@+id/txtTitle"
+			android:textSize="30dip" android:gravity="center"
+			android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+		<!-- for Magnetic -->
+		<TextView android:id="@+id/Gyroscope" android:layout_below="@id/txtTitle"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textSize="20dip" android:text="@string/Gyroscope" />
+		<!-- <RelativeLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/gy_buttons">
+			<include layout="@xml/control_buttons" />
+		</RelativeLayout> -->
+ 		
+		<!-- for accelerator -->
+		<ScrollView android:layout_below="@+id/Gyroscope" android:id="@+id/gy_xyz"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical">
+				<TextView android:id="@+id/magnetic_info"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" />
+				<TextView android:id="@+id/magnetic_x"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" android:text="@string/sensor_x" />
+
+				<TextView android:id="@+id/magnetic_y"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" android:text="@string/sensor_y" />
+				<TextView android:id="@+id/magnetic_z"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" android:text="@string/sensor_z" />
+			</LinearLayout>
+		</ScrollView>
+<LinearLayout android:id="@+id/gy_buttons" android:layout_below="@+id/gy_xyz"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+<Button
+        android:id="@+id/btn_return"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnreturnText" />
+    <Button
+        android:id="@+id/btn_Pass"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnPassText" />
+
+    <Button
+        android:id="@+id/btn_Fail"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnFailText" />
+
+    <Button
+        android:id="@+id/btn_Skip"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/btnSkipText" />
+
+</LinearLayout>
+	</RelativeLayout>
+<RelativeLayout android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:id="@+id/relativeLayout2"/>
+
+
+</LinearLayout>

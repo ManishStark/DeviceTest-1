@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseList>
+
+	<TestCase class_name="VersionTestActivity" test_group="rest">Version</TestCase>
+	<TestCase class_name="HardwareInfoTestActivity" test_group="auto_judged">Hardware</TestCase>
+	<!-- <TestCase class_name="LcdTestActivity" test_group="rest">LCD</TestCase> -->
+	<!-- <TestCase class_name="TouchTestActivity" test_group="rest">Touch</TestCase> -->
+	<TestCase class_name="CameraTestActivity" test_group="rest">Camera</TestCase>
+	<!-- <TestCase class_name="VibrationTestActivity" test_group="rest">Vibration</TestCase> -->
+	<!-- <TestCase class_name="GsensorTestActivity" test_group="auto_judged">Gsensor</TestCase> -->
+	<!-- <TestCase class_name="MsensorTestActivity" test_group="rest">Msensor</TestCase> -->
+	<!-- <TestCase class_name="LightsensorTestActivity" test_group="rest">Lightsensor</TestCase> -->
+	<TestCase class_name="CompassTestActivity" test_group="rest">Compass</TestCase> 
+	<!--<TestCase class_name="LevelTestActivity" test_group="rest">Level</TestCase> -->
+	<TestCase class_name="BluetoothTestActivity" test_group="auto_judged">Bluetooth</TestCase>
+	<TestCase class_name="WifiTestActivity" test_group="auto_judged">Wifi</TestCase>
+	<TestCase class_name="GpsTestActivity" test_group="auto_judged">Gps</TestCase>
+	<!--<TestCase class_name="HeadsetMicTestActivity" test_group="rest">Headset MIC</TestCase> -->
+	<TestCase class_name="PhoneMicTestActivity" test_group="rest">MIC</TestCase>
+	<TestCase class_name="SpeakerTestActivity" test_group="rest">Speaker</TestCase>
+	<TestCase class_name="PowerTestActivity" test_group="auto_judged">Battery</TestCase>
+	<TestCase class_name="BrightnessTestActivity" test_group="rest">Brightness</TestCase>
+	<TestCase class_name="KeyboardTestActivity" test_group="auto_judged">Keyboard</TestCase>
+	<!-- <TestCase class_name="SimCardTestActivity" test_group="rest">Sim Card</TestCase> -->
+	<!-- <TestCase class_name="FMRadioTestActivity" test_group="rest">FM Radio</TestCase> -->
+	<!-- <TestCase class_name="SdCardTestActivity" test_group="rest">SD Card</TestCase> -->
+	<TestCase class_name="StorageTestActivity" test_group="auto_judged">Storage R/W</TestCase>
+	<!-- <TestCase class_name="MrioUSBTestActivity" test_group="auto_judged">Mrio USB</TestCase> -->
+	<TestCase class_name="LedTestActivity" test_group="rest">LED</TestCase>
+	<TestCase class_name="CirTestActivity" test_group="rest">Cir</TestCase>
+	<TestCase class_name="IrdaTestActivity" test_group="rest">IrDA</TestCase>
+	<TestCase class_name="RuninTestActivity" test_group="rest">Runin</TestCase>
+
+</TestCaseList>

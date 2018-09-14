@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <include layout="@xml/control_buttons" android:id="@+id/btns"/>
+
+	<com.DeviceTest.view.PointerLocationView
+		android:id="@+id/pointerview" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" />
+
+	<TextView android:id="@+id/TouchtextTitle" android:visibility="visible"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:textSize="24sp"
+		android:text="@string/TouchtestTitle" android:paddingTop="20px" />
+	<TextView android:id="@+id/TouchInfoText" android:visibility="visible"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:textSize="24sp"
+		android:text="@string/TouchtestSubTitle" android:paddingTop="20px"
+		android:layout_below="@id/TouchtextTitle" />
+
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingBottom="20dip"
+		android:layout_below="@id/TouchInfoText">
+
+
+		<TextView android:id="@+id/TouchtextMsg" android:visibility="visible"
+			android:layout_height="wrap_content" android:text="@string/TouchtestSubTitle"
+			android:layout_width="wrap_content" android:paddingTop="20px" />
+	</LinearLayout>
+
+
+</RelativeLayout>

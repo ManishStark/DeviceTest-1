@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="60sp"  android:id="@+id/Titles">
+		<TextView android:id="@+id/compassText"
+			android:layout_alignParentLeft="true" android:layout_width="wrap_content"
+			android:layout_height="fill_parent" android:textSize="20sp" />
+		<Button android:id="@+id/Start"
+			android:layout_alignParentRight="true" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/start" />
+	</RelativeLayout>
+
+<include layout="@xml/control_buttons" android:id="@+id/compass_buttons"/>
+	<com.DeviceTest.view.CompassView
+		android:id="@+id/compasstestview" android:layout_above="@id/compass_buttons"
+		android:layout_below="@id/Titles" android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+</RelativeLayout>

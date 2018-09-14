@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/layout1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+
+      <include layout="@xml/control_buttons" android:id="@+id/btns"/>
+	<Button android:id="@+id/StopVideo"
+		android:layout_alignParentBottom="true" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="@string/stop"
+		android:visibility="gone" />
+
+	<VideoView android:id="@+id/VideoView" android:visibility="gone"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_above="@id/StopVideo" />
+	<TextView android:id="@+id/textTitle" android:visibility="visible"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:textSize="24sp"
+		android:text="@string/RuninTestTitle" />
+
+
+
+	<TextView android:id="@+id/SleepWakeText"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textSize="55sp" android:layout_below="@id/textTitle" />
+
+	<Spinner android:id="@+id/SleepWakeTimesSpinner"
+		android:layout_width="wrap_content" android:layout_height="55sp"
+		android:layout_alignParentRight="true" android:layout_marginTop="10sp"
+		android:layout_alignTop="@id/SleepWakeText" />
+
+	<TextView android:id="@+id/MemText" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="55sp"
+		android:gravity="center_horizontal" android:layout_below="@id/SleepWakeText" />
+
+	<Spinner android:id="@+id/MemSizeSpinner" android:layout_width="wrap_content"
+		android:layout_height="55sp" android:layout_alignParentRight="true"
+		android:layout_marginTop="10sp" android:layout_alignTop="@id/MemText" />
+
+	<TextView android:id="@+id/VideoText" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="55sp"
+		android:layout_below="@id/MemText" />
+
+	<Spinner android:id="@+id/VideoLengthSpinner"
+		android:layout_width="wrap_content" android:layout_height="55sp"
+		android:layout_alignParentRight="true" android:layout_marginTop="10sp"
+		android:layout_alignTop="@id/VideoText" />
+
+	<TextView android:id="@+id/BatteryTempText"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:textSize="55sp" android:layout_below="@id/VideoText"/>
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_above="@id/btns"
+		android:layout_below="@id/MemText">
+		<TextView android:id="@+id/MemResult" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:textSize="18sp"
+			android:visibility="gone" />
+	</ScrollView>
+	<Button android:id="@+id/TestStart" android:layout_below="@id/BatteryTempText"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<ProgressBar android:visibility="gone"
+		android:layout_below="@id/BatteryTempText" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/progress" />
+</RelativeLayout>

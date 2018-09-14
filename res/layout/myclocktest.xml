@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="60dip" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:text="@string/clock_test" />
+
+        <LinearLayout
+            android:id="@+id/clock1"
+            android:layout_width="300dip"
+            android:layout_height="300dip"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <include layout="@xml/control_buttons" />
+
+</RelativeLayout>

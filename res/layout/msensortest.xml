@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<RelativeLayout android:layout_height="match_parent"
+		android:layout_width="wrap_content" android:id="@+id/relativeLayout1">
+		<TextView android:text="@string/MsensorTest" android:id="@+id/txtTitle"
+			android:textSize="30dip" android:gravity="center"
+			android:layout_centerHorizontal="true" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+		 <include layout="@xml/control_buttons" android:id="@+id/ms_buttons"/>
+
+		<!-- for Magnetic -->
+		<TextView android:id="@+id/Magnetic" android:layout_below="@id/txtTitle"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:textSize="20dip" android:text="@string/Magnetic_Field" />
+
+
+		<!-- for accelerator -->
+		<ScrollView android:layout_below="@id/Magnetic"
+			android:layout_above="@id/ms_buttons" android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<LinearLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:orientation="vertical">
+				<TextView android:id="@+id/magnetic_info"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" />
+
+
+				<TextView android:id="@+id/magnetic_x"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" android:text="@string/sensor_x" />
+
+				<TextView android:id="@+id/magnetic_y"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" android:text="@string/sensor_y" />
+				<TextView android:id="@+id/magnetic_z"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:textSize="20dip" android:text="@string/sensor_z" />
+			</LinearLayout>
+		</ScrollView>
+
+
+	</RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">DeviceTest(android6.0)</string>
+	<string name="VibrationTitle">Vibration Test</string>
+	<string name="VibrationContent">Please judge that if the equipment is vibrating
+	</string>
+
+	<string name="SpeakerTitle">Speaker Test</string>
+	<string name="SpeakerContent">Can you hear from the sound?</string>
+	<string name="Left">Left</string>
+	<string name="Right">Right</string>
+	<string name="SpeakerTip">left:man, right:woman</string>
+
+	<string name="BrightnessTitle">Brightness Test</string>
+	<string name="BrightnessTitleStop">Stop Test</string>
+	<string name="BrightnessSubTitle">Please observe the changes of brightness</string>
+
+	<string name="BluetoothTitle">Bluetooth Test</string>
+	<string name="BluetoothSubTitle">Please observe the equipment</string>
+	<string name="BluetoothAdapterFail">Get adapter failed!</string>
+	<string name="BluetoothScan">Scanning equipment...</string>
+	<string name="BluetoothInit">Please wait for init the equipment.</string>
+	<string name="BluetoothOpenF">Open bluetooth failed.</string>
+	<string name="BluetoothFindF">Find equitment failed.</string>
+	<string name="BluetoothFindS">Find equipment....\n Pass!</string>
+
+	<string name="CameraTitle">Camera Test</string>
+	<string name="CameratextMsgText">Please touch the screen , open the camera</string>
+	<string name="CameraFlashTitle">Camera and Flash Test</string>
+	<string name="CameraFlashtextFront">Please click screen to open camera,then click preview screen to take photo</string>
+	<string name="CameraFlashtextBack">Please click screen to open camera,then click preview screen to take photo with flash on</string>
+	  <string name="btnRetestText">Retest</string>
+
+	<string name="GpsTestTitle">Gps C/No test</string>
+	<string name="GpsTestSubTitle">Please observe the equipment</string>
+	<string name="GpsTestResult">Please wait for init the equipment</string>
+	
+	<string name="GpsLocationTestTitle">Gps Location test</string>
+	<string name="GpsLocationTestSubTitle">Please observe the equipment</string>
+	<string name="GpsLocationTestResult">Please wait for init the equipment</string>
+	<string name="gpstextx">X axis C/No:</string>
+	<string name="gpstexty">Y axis C/No:</string>
+	<string name="gpstestx">Test X axis</string>
+	<string name="gpstesty">Test Y axis</string>
+
+	<string name="HeadsetMicTitle">Headset MIC Test</string>
+	<string name="HeadsetMicSubTitle">Please say something to the headset\'s mic and hear
+		from the headset</string>
+
+	<string name="LcdTestTitle">LCD Test</string>
+	<string name="LcdTestStart">Click LCD to start</string>
+
+	<string name="PhoneMictTitle">Mobile phone MIC test</string>
+	<string name="PhoneMicSubTitle">Please say something to the mobile and hear from
+		the speaker</string>
+
+	<string name="PowertestTitle">Battery Information</string>
+	<string name="PowertestSubTitle"> </string>
+	<string name="AcUnplug">Discharge test(unplug ac):</string>
+	<string name="AcPlugin">Charge test(plug in ac):</string>
+	<string name="ChargeState">Charge status:</string>
+	<string name="Voltage">Voltage:</string>
+	<string name="Capacity">Capacity:</string>
+	<string name="Plug">Plug:</string>
+
+	<string name="SdCardTitle">SD card test</string>
+	<string name="SdCardSubTitle">Please observe the equipment</string>
+	<string name="SdCardFail">Fail!  Can not find SD card</string>
+    <string name="SdCardFind">Find sd card, total space: </string>
+    <string name="resume_findSD">Please wait......</string>
+
+	<string name="TouchtestTitle">Touch test</string>
+	<string name="TouchtestSubTitle">Do diagonal test before multi-touch point test
+	</string>
+
+	<string name="VersionTitle">Version test</string>
+	<string name="Firmwareversion">Firmware version:</string>
+	<string name="Kernelversion">Kernel version:</string>
+	<string name="Basebandversion">Baseband version:</string>
+	<string name="Buildversion">Product version:</string>
+
+	<string name="VibrationTest">Vibration Test</string>
+	<string name="testall">Test Checked</string>
+	<string name="Wifitest">Wifi test</string>
+	<string name="WifiError">Wifi test fail</string>
+	<string name="WifiFind">Wifi has find</string>
+	<string name="WifiTry">Try to connect </string>
+	<string name="wififindtest">Wifi has find</string>
+	<string name="WifiConnect">Wifi has connect</string>
+	<string name="WifiPing">Ping test : </string>
+	<string name="WifiHttp">Http connect test: </string>
+	<string name="WifiConnectErr">Can not get connection</string>
+	<string name="WifiSubText">Please observe the equipment</string>
+	<string name="WifiResultText">Please wait for init the equipment</string>
+	<string name="WifiSignal3">信号(强)</string>
+    <string name="WifiSignal2">信号(中)</string>
+    <string name="WifiSignal1">信号(弱)</string>
+    <string name="WifiSignal0">信号(差)</string>
+
+	<string name="SensorTest">Sensor Test</string>
+	<string name="num200">200</string>
+	<string name="gsensorvalue">gsensor value: </string>
+	<string name="Accelerometer">=== Accelerometer === </string>
+	<string name="name_acc"> name:</string>
+	<string name="vendor_acc"> vendor:</string>
+	<string name="version_acc">version:</string>
+	<string name="maxRange_acc">maxRange:</string>
+	<string name="resolution_acc">resolution:</string>
+	<string name="power_acc">power:</string>
+	<string name="sensor_x">x:</string>
+	<string name="sensor_y">y:</string>
+	<string name="sensor_z">z:</string>
+	<string name="Orientation">=== Orientation === </string>
+	<string name="Azimuth"> Azimuth:</string>
+	<string name="Pitch"> Pitch:</string>
+	<string name="Roll"> Roll:</string>
+	<string name="Light">=== Light === </string>
+	<string name="lightvalue">Light:</string>
+	<string name="Proximity">=== Proximity === </string>
+	<string name="Magnetic_Field">=== Magnetic_Field === </string>
+	<string name="Temperature">=== Temperature === </string>
+    <string name="Gyroscope">=== Gyroscope === </string>
+
+	<string name="Gsensor_x">x axis points up(x:9,y:0,z:0)</string>
+	<string name="Gsensor_y">y axis points up(x:0,y:9,z:0)</string>
+	<string name="Gsensor_z">z axis points up(x:0,y:0,z:9)</string>
+
+	<string name="GsensorTest">Gsensor Test</string>
+	<string name="MsensorTest">Msensor Test</string>
+	<string name="LightsensorTest">Lightsensor Test</string>
+     <string name="GyroscopeTest">Gyroscope Test</string>
+	<string name="KeyboardTestTitle">Keyboard Test</string>
+	<string name="KeyboardTestSubTitle">Please test all keys</string>
+
+	<string name="VolUp">Vol+</string>
+	<string name="VolDown">Vol-</string>
+	<string name="Back">Back</string>
+	<string name="Menu">Menu</string>
+	<string name="Home">Home</string>
+
+
+	<string name="FlashLightTest">FlashLight Test</string>
+	<string name="FlashLightTestSubText">Please observe the flashlight of your device when
+		you touch the buttons</string>
+	<string name="OpenFlashLight">Open Flash Light</string>
+	<string name="ShutDownFlashLight">Shut Down Flash Light</string>
+
+	<string name="SimCardTestTitle">Sim Card Test</string>
+
+	<string name="MrioUSBTitle">Mrio USB Test</string>
+	<string name="MrioUSBsubTitle">Plug in usb and unplug usb</string>
+	<string name="UsbUnplug">Unplug usb test:</string>
+	<string name="UsbPlugin">Plug in usb test:</string>
+   <string name="UsbHostTestFail">Fail! Cannot find the USB</string>
+   <string name="UsbFind">USB found, memory: </string>
+
+	<string name="FMRadioTestTitle">FM Radio Test</string>
+	<string name="FMRadioTextMsgText">Please touch the screen, Open the FM Radio</string>
+
+	<string name="CirTestTitle">Cir Test</string>
+	<string name="CirSend">Send</string>
+
+	<string name="CpuInfo">CPU info</string>
+	<string name="MemInfo">MEM info</string>
+	<string name="DmiInfo">DMI info</string>
+
+	<string name="IrdaTestTitle">IrDA Test</string>
+	<string name="SirSend">Sir Send</string>
+	<string name="SirReceive">Sir Receive</string>
+	<string name="SirTest">Sir Test</string>
+	<string name="FirSend">Fir Send</string>
+	<string name="FirReceive">Fir Receive</string>
+	<string name="FirTest">Fir Test</string>
+	
+	<string name="InsertSdCard">Please Insert SD Card!</string>
+	<string name="SdCardNospace">SD Card No Space!</string>
+	
+	<string name="RecordTest">RecordTest</string>
+	<string name="HeadsetRecodrSuccess">record successs!start Play back.</string>
+    <string name="RecordError">Record error!</string>
+
+	<string name="LedTestTitle">Led Test</string>
+	<string name="Red">RED</string>
+	<string name="Green">GREEN</string>
+	<string name="Blue">BLUE</string>
+
+	<string name="HdmiTestTitle">HDMI Test</string>	    
+	<string name="HdmiNoInsert">Please insert HDMI and Touch screen to start test!</string>
+	<string name="HdmiPrepare">Please Wait 3 seconds for Hdmi init!</string>
+	<string name="HdmiResult">Test Finish! \nCan you see the right color in Screen?</string>
+	<string name="HdmiStart">Start Test!</string>
+	<string name="HdmiStartFail">Start failed! Please make sure the HDMI is inserted.</string>
+	    
+	<string name="StorageTestTitle">Storage R/W Test</string>
+	<string name="StorageSDNoFind">Sdcard path not found...\n</string>
+	<string name="StorageSDCopyF">Failed copy to sdcard!\n</string>
+	<string name="StorageSDCopyS">Copy to sdcard success!\n</string>
+	<string name="StorageUsbNoFind">Usb host path not found...\n</string>
+	<string name="StorageUsbCopyF">Failed copy to usb host!\n</string>
+	<string name="StorageUsbCopyS">Copy to usb host success!\n</string>
+	
+	
+
+	<string name="RuninTestTitle">Run In Test</string>
+	<string name="stop">Stop</string>
+	<string name="start">Start</string>
+
+	<string name="btnPassText">Pass</string>
+	<string name="btnFailText">Fail</string>
+	<string name="btnSkipText">Back</string>
+	<string name="OKText">OK!</string>
+
+	<string name="Testall">Test all</string>
+	<string name="Cancel">Close</string>
+	<string name="Clear">Clear</string>
+	<string name="Uninstall">Uninstall</string>
+	
+	<string name="success">Success</string>
+	<string name="fail">Fail</string>
+
+	<string name="Version">V20111216_01</string>
+	<string name="UsbHostTestTitle">Usb Host Test </string>
+	<string name="Hardware">Hardware : </string>
+	<string name="HostStorageState">HostStorageState : </string>
+	<string name="Writable">Write Test : </string>
+	<string name="WriteData">Write Data! </string>
+	<string name="ReadData">Read Data! </string>
+	<string name="MakeDir">Create Dir </string>
+	<string name="CreateFile">Create New File </string>
+	<string name="FileDel">File delete </string>
+	<string name="DirDel">Dir delete </string>
+	<string name="Compare">Compare </string>
+	<string name="HardwareSupport">Hardware : Support. \nFind Device : </string>
+	<string name="HardwareNoSupport">Hardware : Can\'t find Device! \nPlease insert USB device and wait 5 seconds.</string>
+	<string name="nand_flash">NAND flash</string>
+	<string name="total_space">Total space</string>
+	<string name="available_space">Available space</string>
+	<string name="internal_storage">Internal storage</string>
+	<string name="nand_unavailable">Unavailable</string>
+	<string name="read_only">\u0020(Read-only)</string>
+	<string name="camera_switch">Switch</string>
+	<string name="SingleTest">SingleTest</string>
+	<string name="nocamera">No Camera</string>
+	
+	<string name="btnRetest">Test again</string>
+	<string name="btnreturnText">Return Main Test</string>
+	<string name="load_title">Loading..</string>
+    <string name="wait">Please wait for a moment</string>
+   <string name="no_mediafiles">No media files</string>
+   <string name="alert_checkfile">Please check whether the video file is exist.</string>
+  <string name="clock_test">Clock Test</string>
+  <string name="alert_dialog_text_entry">Please enter your password make sure you have the appropriate permissions</string>
+  <string name="alert_dialog_ok">OK</string>
+  <string name="alert_dialog_cancel">Cancle</string>
+  <string name="alert_dialog_warning_title">Warning</string>
+   <string name="alert_dialog_password">Password:</string>
+</resources>

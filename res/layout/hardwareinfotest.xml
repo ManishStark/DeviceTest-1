@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="match_parent">
+
+	<RelativeLayout android:layout_height="match_parent"
+		android:layout_width="wrap_content" android:id="@+id/relativeLayout1">
+
+		<include layout="@xml/control_buttons" android:id="@+id/hd_buttons"/>
+
+		<LinearLayout android:id="@+id/switch_btns"
+			android:layout_above="@id/hd_buttons" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:orientation="horizontal">
+			<Button android:id="@+id/btn_cpu" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:text="@string/CpuInfo" />
+			<Button android:id="@+id/btn_mem" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:text="@string/MemInfo" />
+			<Button android:id="@+id/btn_dmi" android:layout_width="0dip"
+				android:layout_height="wrap_content" android:layout_weight="1"
+				android:text="@string/DmiInfo" />
+		</LinearLayout>
+
+		<TextView android:id="@+id/hwinfoText" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="20dip" />
+
+		<ScrollView android:layout_above="@id/switch_btns"
+			android:layout_below="@id/hwinfoText"
+			android:layout_width="fill_parent" android:layout_height="wrap_content">
+			<FrameLayout android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<TextView android:id="@+id/cpu_info" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="20dip"
+					android:visibility="gone" />
+
+				<TextView android:id="@+id/mem_info" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="20dip"
+					android:visibility="gone" />
+
+				<TextView android:id="@+id/dmi_info" android:layout_width="fill_parent"
+					android:layout_height="wrap_content" android:textSize="20dip"
+					android:visibility="gone" />
+			</FrameLayout>
+		</ScrollView>
+
+	</RelativeLayout>
+
+
+
+</LinearLayout>

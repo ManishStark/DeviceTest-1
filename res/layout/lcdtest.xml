@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<com.DeviceTest.view.LcdTestView android:id="@+id/lcdtestview" android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+	<TextView android:id="@+id/lcdtextTitle" android:visibility="visible"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center_horizontal" android:textSize="24sp"
+		android:text="@string/LcdTestTitle" android:paddingTop="20px" />
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical"
+		android:paddingBottom="60dip" android:layout_below="@id/lcdtextTitle">
+
+
+		<TextView android:id="@+id/lcdtestresult" android:visibility="visible"
+			android:layout_height="wrap_content" android:text="@string/LcdTestStart"
+			android:layout_width="fill_parent" android:gravity="center_horizontal"
+			android:paddingTop="40px"
+			android:textSize="18sp" />
+
+
+
+	</LinearLayout>
+
+	 <include layout="@xml/control_buttons" android:id="@+id/acc_buttons"/>
+
+</RelativeLayout>

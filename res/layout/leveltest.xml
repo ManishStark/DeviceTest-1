@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+	
+ <include layout="@xml/control_buttons" android:id="@+id/level_buttons"/>
+
+	<com.DeviceTest.view.LevelView android:id="@+id/leveltestview"
+		android:layout_above="@id/level_buttons" android:layout_width="match_parent"
+		android:layout_height="match_parent" />
+
+</RelativeLayout>

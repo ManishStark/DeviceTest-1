@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   android:id="@+id/layout1"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   xmlns:android="http://schemas.android.com/apk/res/android">
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="60dip"> 
+    
+    	<TextView
+		    android:id="@+id/textTitle"
+		    android:visibility="visible"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_centerInParent="true"
+		    android:gravity="center_horizontal"
+			android:textSize="24sp"
+			android:paddingTop="20px"
+			android:text="@string/MrioUSBTitle"
+			/>
+
+
+    	<TextView
+		    android:id="@+id/infoText"
+			android:visibility="visible"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:gravity="center_horizontal"
+			android:paddingTop="20px"
+			android:paddingBottom="20px"
+			android:textSize="20sp"
+			android:text="@string/MrioUSBsubTitle"/>
+	
+	
+	  <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical"
+        > 
+        
+        <TextView
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:paddingTop="10px"		
+		    android:textSize="40sp"
+			android:visibility="visible" 
+			android:id="@+id/unplugTest"
+			android:text="@string/UsbUnplug"
+			android:textColor="#ff0000"/>
+		 
+        <TextView
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:paddingTop="10px"	
+		    android:textSize="40sp"
+			android:visibility="visible" 
+			android:id="@+id/pluginTest"
+			android:text="@string/UsbPlugin"
+			android:textColor="#ff0000"/>
+		 
+		</LinearLayout>	
+			
+			
+    		
+    		
+
+  </LinearLayout>
+
+      <include layout="@xml/control_buttons" android:id="@+id/level_buttons"/>
+    
+</RelativeLayout>
